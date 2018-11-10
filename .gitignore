@@ -1,2 +1,4 @@
+.netlify
 .vscode
 node_modules
+_static
