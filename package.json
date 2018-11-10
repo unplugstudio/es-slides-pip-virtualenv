@@ -1,0 +1,18 @@
+{
+  "name": "es-pip-virtualenv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.md",
+  "scripts": {
+    "start": "reveal-md index.md",
+    "prebuild": "rimraf _static",
+    "build": "reveal-md index.md --static"
+  },
+  "private": true,
+  "author": "ed@unplug.studio",
+  "license": "ISC",
+  "devDependencies": {
+    "reveal-md": "~2.3.0",
+    "rimraf": "~2.6.2"
+  }
+}
